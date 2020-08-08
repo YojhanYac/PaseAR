@@ -1,0 +1,290 @@
+html {
+    box-sizing: border-box;
+    width: 100vw!important;
+    overflow-x: hidden!important;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+body {
+    font-family: sans-serif;
+    background-color: #cf7500;
+    margin: 0 0;
+    font-size: calc(0.5rem + 0.6vw);
+}
+footer {
+    margin: auto 20px;
+}
+section, footer {
+    background-size: cover;
+    margin: auto 20px;
+}
+article {
+    background-image: url("https://cdn.tn.com.ar/sites/default/files/styles/1366x765/public/2017/03/05/flores.jpg");
+    padding: 70px 20px 15px 20px;
+}
+h2, h3 {
+    text-align: center;
+}
+.article-content img {
+    width: 230px;
+    height: 500px;
+    margin: 50px 30px 20px 15px;
+    clear: left;
+    float: left;
+}
+.article-text {
+    padding-top: 5px;
+    text-align: justify;
+    min-height: 580px;
+    background-color: rgba(255, 255, 255, 0.658);
+}
+.article-text p, .article-text ul {
+    margin: 15px 15px 0px 15px;
+    padding-bottom: 2px;
+}
+.article-text ul {
+    padding: 0px 0px;
+}
+.article-text ul li {
+    list-style: none;
+    margin-top: 1%;
+}
+h1 {
+    font-size: 90px;
+    margin: auto auto ;
+}
+td {
+    height: 20px;
+}
+#cover-page {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.815);
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.705);
+    text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.39);
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 30vh;
+    margin: auto 10vw;
+    width: 80vw;
+    position: absolute;
+    border-radius: 0px;
+    margin-top: 55px;
+    height: 100vh;
+}
+#cover-page h3 {
+    margin: auto 50px;
+}
+span {
+    color: #3fc1c9;
+}
+#about {
+    margin: auto auto;
+    padding-top: 40vh;
+    margin-top: 20px;
+    background-image: url("https://www.buenosaires.gob.ar/sites/gcaba/files/field/image/unnamed_27.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.container {
+    background: rgba(255, 255, 255, 0.685);
+    padding-top: 5px;
+}
+#contact h3 {
+    margin: 20px 0 0 0;
+}
+#about p, footer p {
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 15px 25px 20px 25px;
+}
+#services {
+    margin: auto auto;
+    padding-top: 40vh;
+    background-image: url("https://www.buenosaires.gob.ar/sites/gcaba/files/field/image/planetario_de_la_ciudad_de_buenos_aires.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+#services p {
+    text-align: center;
+    margin: 15px 25px auto 25px;
+}
+#services p:last-child {
+    padding-bottom: 25px;
+}
+#services ul {
+    text-align: center;
+}
+nav ul {
+    z-index: 10;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    position: fixed;
+    font-size: 15px;
+    width: 100vw;
+    top: 0;
+}
+#firts-nav-ul-li {
+    display: none;
+}
+nav ul li {
+    display: inline-block;
+    width: 20%;
+    padding: 15px;
+}
+nav ul li a {
+    color: #f5f5f5;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.815);
+    padding-bottom: 1px;
+    border-bottom: 1px solid white;
+}
+#contact {
+    padding-top: 18vh;
+    background-image: url("https://cdn.hostales.com/city_images/Argentina/buenos-aires.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 110vh;
+    margin: auto auto auto auto;
+    border-radius: 0;
+}
+#form-contact {
+    width: 70%;
+    margin: auto 15%;
+}
+textarea, input, select {
+    width: 70%;
+    margin: 2.5px 15% 2.5px 15%;
+    border-radius: 5px;
+    padding-left: 7px;
+    border: 1.75px solid rgba(128, 128, 128, 0.822);
+}
+.contact-input-radio, #contact-input-checkbox {
+    width: auto;
+    margin: 5px 0;
+    height: 10px;
+}
+select {
+    height: 30px;
+}
+label {
+    width: 150px;
+    margin: auto 4%;
+}
+#container-input-radio, #container-input-checkbox{
+    width: 70%;
+    margin: 2.5px 15%;
+    background-color: rgba(245, 245, 245, 0.836);
+}
+#container-input-checkbox {
+    margin: 5px auto 10px auto;
+    text-align: left;
+}
+textarea:hover, input:hover {
+    border: 1.75px solid #cf7500;
+}
+textarea:link, input:link {
+    border: 1.75px solid rgba(128, 128, 128, 0.822);
+}
+input {
+    height: 30px;
+}
+#input-send {
+    background-color: rgb(14, 67, 241);
+    color: white;
+    border: none;
+    height: 40px;
+    font-weight: 450;
+    font-size: 17px;
+}
+video {
+    height: 105vh;
+    width: auto;
+    display: inline-block;
+    z-index: -10;
+}
+#container-video {
+    width: 100vw;
+    overflow-x: hidden!important;
+    z-index: 1;
+}
+
+@media(max-width: 500px) {
+    .article-content img  {
+        width: 100%;
+        height: 700px;
+        margin: auto auto;
+        margin-bottom: 20px;
+    }
+    article {
+        padding: 15px 25px;
+        border-radius: 4px;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    h3 {
+        font-size: 15px;
+    }
+    nav ul {
+        font-size: 15px;
+    }
+    nav ul li {
+        width: 100%;
+    }
+    section, footer {
+        margin: auto 5px;
+    }
+    #form-contact {
+        width: 90%;
+        margin: auto 5%;
+    }
+    textarea, input, #container-input-radio, #container-input-checkbox, select {
+        width: 100%;
+        margin: 2.5px 0 2.5px 0;
+    }
+    label {
+        margin: 0 6%;
+    }
+    td {
+        height: 12px;
+    }
+    #firts-nav-ul-li {
+        display: inline-block;
+    }
+    nav ul {
+        height: 48px;
+    }
+    nav ul:hover, nav ul:active {
+        height: auto;
+    }
+    nav ul > li {
+        visibility: hidden;
+    }
+    nav ul:hover > li, nav ul:active > li {
+        visibility: visible;
+    }
+    nav ul li:first-child {
+        visibility: visible;
+    }
+    video {
+        width: auto;
+        height: 105vh;
+    }
+}
+
+@media(max-height: 500px) {
+    #cover-page {
+        padding-top: 10vh;
+        margin-bottom: 15px;
+    }
+    video {
+        width: 100vw;
+        height: auto;
+    }
+}
