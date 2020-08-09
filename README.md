@@ -9,9 +9,7 @@ Página de inicio para blog PaseAR, la función es informar de paseos recomendad
 
 ```
 Estado del módulo: en curso.
-
 Estado del proyecto: en curso.
-
 ```
 
-*Visualizar en línea: https://yojhanyac.000webhostapp.com/PaseAR
+*Visualizar en línea: https://yojhanyac.000webhostapp.com/PaseAR*
