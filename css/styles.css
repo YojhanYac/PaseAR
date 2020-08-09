@@ -17,14 +17,11 @@ footer {
 }
 section, footer {
     background-size: cover;
-    /* margin: auto 20px; */
 }
 article {
-    /* background-image: url("https://cdn.tn.com.ar/sites/default/files/styles/1366x765/public/2017/03/05/flores.jpg"); */
-    background-image: url("/img/avRivadavia.png");
+    background-image: url("../img/avRivadavia.png");
     background-size: cover;
     background-position: center;
-    /* padding: 70px 20px 15px 20px; */
 }
 h2, h3 {
     text-align: center;
@@ -39,12 +36,10 @@ h2, h3 {
 .article-text {
     padding-left: 2%;
     padding-right: 2%;
-    /* padding-top: 5px; */
     text-align: center;
     min-height: 580px;
     width: 55%;
     padding-top: 120px;
-    /* background-color: rgba(255, 255, 255, 0.658); */
 }
 .article-text p, .article-text ul {
     margin: 15px 15px 0px 15px;
@@ -131,7 +126,6 @@ nav ul {
     text-align: center;
     position: fixed;
     font-size: 17px;
-    /* font-weight: 550; */
     width: 100vw;
     top: 0;
 }
