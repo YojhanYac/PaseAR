@@ -85,7 +85,6 @@ span {
     height: 100%;
     padding-top: 90px;
 }
-
 .container-about {
     display: inline-block;
     background: rgba(245, 245, 245, 0.589);
@@ -207,7 +206,7 @@ input {
     font-size: 17px;
 }
 video {
-    height: 105vh;
+    height: 110vh;
     width: auto;
     display: inline-block;
     z-index: -10;
@@ -221,6 +220,74 @@ video {
     padding-left: 2%;
     font-size: 55px;
     text-align: left;
+}
+#service {
+    display: flex;
+    flex-direction: row;
+    height: 780px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+#service h2 {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+#service div {
+    display: flex;
+    width: 48%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#service div h3 {
+    width: 100%;
+    margin-bottom: 0px;
+}
+#service div p {
+    background-color: rgba(245, 245, 245, 0.589);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#service1 {
+    background: url('../img/service1.jpeg');
+    transition: background 3s ease;
+}
+#service1:hover {
+    background: url('../img/service1.jpeg') no-repeat;
+    background-size: 100%;
+    background-size: cover;
+}
+#service2 {
+    background-image: url('../img/service2.jpeg');
+    transition: background 3s ease;
+}
+#service2:hover {
+    background: url('../img/service2.jpeg') no-repeat;
+    background-size: 100%;
+    background-size: cover;
+}
+#service3 {
+    background-image: url('../img/service3.jpeg');
+    transition: background 3s ease;
+}
+#service3:hover {
+    background: url('../img/service3.jpeg') no-repeat;
+    background-size: 100%;
+    background-size: cover;
+}
+#service4 {
+    background-image: url('../img/service4.jpeg');
+    transition: background 3s ease;
+}
+#service4:hover {
+    background: url('../img/service4.jpeg') no-repeat;
+    background-size: 100%;
+    background-size: cover;
 }
 
 @media(max-width: 612px) {
