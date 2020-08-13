@@ -153,8 +153,11 @@ nav ul li a:hover {
     background-size: cover;
     background-position: center;
     height: 110vh;
-    margin: auto auto auto auto;
+    margin: 20px auto auto auto;
     border-radius: 0;
+}
+.container-contact {
+    background: rgba(245, 245, 245, 0.589);
 }
 #form-contact {
     width: 70%;
@@ -216,7 +219,7 @@ video {
     overflow-x: hidden!important;
     z-index: 1;
 }
-#title {
+.title {
     padding-left: 2%;
     font-size: 55px;
     text-align: left;
@@ -250,8 +253,8 @@ video {
 }
 #service div p {
     background-color: rgba(245, 245, 245, 0.589);
-    margin-left: 20px;
-    margin-right: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 #service1 {
     background: url('../img/service1.jpeg');
