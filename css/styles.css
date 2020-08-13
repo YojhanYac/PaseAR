@@ -36,7 +36,7 @@ h2, h3 {
 .parrallax {
     background: #fff fixed no-repeat 50% 50%;
     background-size: cover;
-    background-image: url('../img/4.jpg');
+    background-image: url('../img/8.jpg');
 }
 .right {
     margin: auto 2% auto 43%;
@@ -150,7 +150,7 @@ nav ul li a:hover {
 }
 #contact {
     padding-top: 18vh;
-    background-image: url("../img/4.jpg");
+    background-image: url("../img/6.jpg");
     background-size: cover;
     background-position: center;
     height: 110vh;
