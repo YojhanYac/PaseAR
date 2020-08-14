@@ -27,10 +27,10 @@
                         <a href="#articles">Articulos</a>
                     </li>
                     <li class="navs-ul-li">
-                        <a href="#about">Nosotros</a>
+                        <a href="#service">Servicios</a>
                     </li>
                     <li class="navs-ul-li">
-                        <a href="#service">Servicios</a>
+                        <a href="#about">Nosotros</a>
                     </li>
                     <li class="navs-ul-li">
                         <a href="#contact">Contacto</a>
@@ -39,7 +39,7 @@
             </nav>
         </header>
         <main role="main">
-            <section id="cover-page" rel="preload">
+            <section id="cover-page">
                 <h1>Disfruntá Pase<span>AR</span>!</h1>
                 <h3>
                     <em>Recibí notificaciones de los últimos articulos publicados registrando tu
@@ -47,7 +47,13 @@
                 </h3>
             </section>
             <div id="container-video">
-                <video src="video/video1.mp4" frameborder="0" loop="loop" autoplay="autoplay" title="Video by Juan Manuel Ferraro from Pexels"></video>
+                <video
+                    src="video/video1.mp4"
+                    rel="prefetch"
+                    frameborder="0"
+                    loop="loop"
+                    autoplay="autoplay"
+                    title="Video by Juan Manuel Ferraro from Pexels"></video>
             </div>
             <h2 class="title">Últimos añadidos</h2>
             <article id="articles" style="background-image: url('img/avRivadavia.png');">
@@ -121,22 +127,30 @@
             </article>
         </section>
         <section id="service">
-            <h2 class="title">Actividades</h2>
+            <h2 class="title">Servicios</h2>
             <div id="service1">
                 <h3>Cercanas</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum vero deleniti dignissimos similique veritatis repellendus quibusdam expedita non nostrum enim molestias cum laboriosam minima et, neque commodi. Culpa, dicta quasi.</p>
+                <p>Se informará de los eventos y actividades que se encuentren a pocos metros de
+                    su ubicación, todo sin salir de la aplicación, mientra se encuentre en segundo
+                    plano recibirá notificiaciones para avisarle sobre aquellas que estén cerca</p>
             </div>
             <div id="service2">
                 <h3>Recomendadas</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum vero deleniti dignissimos similique veritatis repellendus quibusdam expedita non nostrum enim molestias cum laboriosam minima et, neque commodi. Culpa, dicta quasi.</p>
+                <p>Podrá filtrar las notificaciones por las que más hayan sido visitadas y
+                    realizadas por parte de la comunidad, así se asegurará de que la diversión está
+                    asegurada, como también del gusto general para realizar con cualquier compañia.</p>
             </div>
             <div id="service3">
                 <h3>Únicas</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum vero deleniti dignissimos similique veritatis repellendus quibusdam expedita non nostrum enim molestias cum laboriosam minima et, neque commodi. Culpa, dicta quasi.</p>
+                <p>Si desea ser más exquisito, podrá filtrar por actividades y eventos únicos,
+                    aquellas que solo se realizan pocas veces al año y que son obligatorias visitar
+                    para cualquiera que se encuentre en la ciudad, por lo menos una vez!</p>
             </div>
             <div id="service4">
-                <h3>Prontas</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum vero deleniti dignissimos similique veritatis repellendus quibusdam expedita non nostrum enim molestias cum laboriosam minima et, neque commodi. Culpa, dicta quasi.</p>
+                <h3>Próximas</h3>
+                <p>Para aquellos que les guste improvisar, podrán recibir notificaciones de
+                    aquellos eventos que estén a punto de comenzar, estableciendo así un tiempo
+                    aproximado de llegada según su ubicación para que no se lo pierda!</p>
             </div>
         </section>
         <section id="about" class="parrallax">
@@ -223,6 +237,11 @@
                 </div>
                 <input id="input-send" type="submit" value="Enviar">
             </form>
+        </div>
+        <div id="info-web">
+            <p>
+                ® 2020 Todos los derechos reservados.
+            </p>
         </div>
     </footer>
 </body>
