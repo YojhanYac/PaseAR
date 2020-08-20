@@ -24,6 +24,8 @@ article {
 }
 h2, h3 {
     text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-size: 45px;
 }
 .article-text {
     padding-left: 2%;
@@ -72,13 +74,18 @@ td {
     margin-top: 55px;
     height: 100vh;
 }
+#cover-page h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    margin: auto 15px;
+}
 span {
     color: #3fc1c9;
 }
 #about {
     margin: auto auto;
     margin-top: 15px;
-    height: 45vh;
+    height: 50vh;
 }
 .container {
     background: rgba(255, 255, 255, 0.719);
@@ -89,8 +96,8 @@ span {
     display: inline-block;
     background: rgba(245, 245, 245, 0.589);
     width: 100%;
-    height: 22vh;
-    margin: 11.5vh auto 11.5vh auto;
+    height: 30vh;
+    margin: 10vh auto 10vh auto;
 }
 #contact h3 {
     margin: 20px 0 0 0;
@@ -159,6 +166,9 @@ nav ul li a:hover {
 .container-contact {
     background: rgba(245, 245, 245, 0.589);
 }
+.container-contact h3 {
+    padding-top: 20px;
+}
 #form-contact {
     width: 70%;
     margin: auto 15%;
@@ -223,6 +233,7 @@ video {
     padding-left: 2%;
     font-size: 55px;
     text-align: left;
+    font-family: 'Rubik', sans-serif;
 }
 #service {
     display: flex;
@@ -252,9 +263,13 @@ video {
     margin-bottom: 0px;
 }
 #service div p {
-    background-color: rgba(245, 245, 245, 0.589);
+    /* background-color: rgba(245, 245, 245, 0.589); */
     padding-left: 10%;
     padding-right: 10%;
+}
+#service1 div, #service2 div, #service3 div, #service4 div {
+    width: 100%;
+    background-color: rgba(245, 245, 245, 0.3);
 }
 #service1 {
     background: url('../img/service1.jpeg');
@@ -299,6 +314,14 @@ video {
 #info-web p {
     margin: 0;
     padding: 0;
+}
+
+.article-text p, #service p {
+    font-family: 'Quicksand', sans-serif;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
 }
 @media(max-width: 612px) {
     #title {
