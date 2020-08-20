@@ -23,7 +23,7 @@ Estado del módulo: finalizado
 ```
 
 ### Módulo 2: Maquetación Web: HTML 5 y CSS
->Clases: Introducción al mundo del CSS. Maquetando. Flexbox y Pseudo clases. Contadores, menues y sprites. Superposición de elementos, elementos fijos y menúes desplegables. Integrando contenidos
+>Clases: Introducción al mundo del CSS. Maquetando. Flexbox y Pseudo clases. Contadores, menúes y sprites. Superposición de elementos, elementos fijos y menúes desplegables. Integrando contenidos
 
 ```
 Estado del módulo: en curso
