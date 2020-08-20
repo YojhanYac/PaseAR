@@ -2,10 +2,6 @@
 
 Curso: FullStack PHP
 
-Modalidad: A distancia
-
-Dias: Lunes a viernes
-
 >Página de inicio para blog PaseAR, la función es informar de paseos recomendados dentro de CABA.
 
 ```
