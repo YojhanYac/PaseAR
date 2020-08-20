@@ -1,11 +1,11 @@
 # Diseño PaseAR
+
 Curso: FullStack PHP
 
 Modalidad: A distancia
 
 Dias: Lunes a viernes
 
-Proyecto: Desarrollo Frontend con HTML5 Y CSS3
 >Página de inicio para blog PaseAR, la función es informar de paseos recomendados dentro de CABA.
 
 ```
@@ -13,6 +13,7 @@ Estado del proyecto: en curso
 ```
 
 *Visualizar en línea: https://yojhanyac.000webhostapp.com/PaseAR*
+
 
 ### Módulo 1: HTML5: Fundamentos Web
 >Clases: Etiquetas de estructura. Imágenes y vínculos. Formularios y validación. Tablas e iframe.
